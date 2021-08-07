@@ -1,0 +1,179 @@
+@import url(reset.css);
+
+h2 {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: bold;
+}
+@mixin p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+@mixin p-b {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+html,
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.box {
+  display: flex;
+  margin: 0 auto;
+
+  .side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 296px;
+    padding: 0 32px;
+    background-color: #f8f9fa;
+
+    ul {
+      padding-top: 32px;
+    }
+    .logo {
+      padding: 28px 0;
+    }
+
+    .list-group-item {
+      @include p-b();
+      height: 54px;
+      padding: 15px 16px;
+      border: 0;
+      background-color: #fff;
+      .fa {
+        padding-right: 16px;
+        font-size: 18px;
+      }
+      a {
+        color: #212529;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #198754;
+      }
+    }
+
+    .author {
+      margin-bottom: 40px;
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        float: left;
+        margin: 0 16px 0 0;
+      }
+      .name {
+        @include p-b();
+      }
+    }
+  }
+
+  .main {
+    width: 936px;
+
+    .table-area {
+      margin: 0 24px;
+    }
+    .fa-plus {
+      font-size: 16px;
+      color: #198754;
+      padding: 0 8px 0 47px;
+    }
+    .fa-long-arrow-down {
+      color: #198754;
+      padding: 0 4px;
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 1.4;
+      margin: 35px 0;
+      display: block;
+    }
+    .inword {
+      @include p-b();
+    }
+  }
+
+  th {
+    font-weight: bold;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+  }
+  td {
+    border-bottom: 1px solid #ced4da;
+    padding: 20px 0;
+  }
+  .page {
+    padding: 63.5px 0 32px;
+    text-align: right;
+    .pagination {
+      justify-content: flex-end;
+    }
+  }
+}
+.edit {
+  width: 480px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 32px;
+  // background: rgb(231, 214, 156);
+
+  .mb-3-Account {
+    .form-label {
+      font-size: 14px;
+      line-height: 24px;
+      padding-top: 16px;
+    }
+    .form-control {
+      padding: 18px 0.75rem;
+      font-size: 1rem;
+      font-weight: bold;
+      background: #f8f9fa;
+      border: 0;
+    }
+    // .mb-3-Verification {
+    //   .form-label {
+    //     font-size: 14px;
+    //     line-height: 24px;
+    //     padding-top: 16px;
+    //   }
+  
+  }
+  .mb-3{
+    .form-control{padding: 18px 0.75rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border: 1px soild #CED4DA;}
+ 
+   .form-select-lg {
+       
+    font-size: 16px;
+        line-height: 24px;
+        padding-top: 16px;
+        padding: 18px 0.75rem;
+    
+    } }
+  .mb-3-Admin{
+    .form-control{padding: 18px 0.75rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border: 2px solid #212529;
+   }
+  }
+  .btn-primary{background: #198754;
+   }
+  .btn{  padding: 8px 32px;
+  border-radius: 2px;}
+  .me-md-2{background:#fff ;border:2px solid #CED4DA ;color:#198754;}
+}
