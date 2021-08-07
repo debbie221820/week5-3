@@ -1,0 +1,143 @@
+@import url(reset.css);
+h2 {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: bold; }
+
+h3 {
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight: bold; }
+
+html,
+body {
+  font-family: "Lato", sans-serif; }
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto; }
+  .box .side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 296px;
+    padding: 0 32px;
+    background-color: #f8f9fa; }
+    .box .side ul {
+      padding-top: 32px; }
+    .box .side .logo {
+      padding: 28px 0; }
+    .box .side .list-group-item {
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: bold;
+      height: 54px;
+      padding: 15px 16px;
+      border: 0;
+      background-color: #fff; }
+      .box .side .list-group-item .fa {
+        padding-right: 16px;
+        font-size: 18px; }
+      .box .side .list-group-item a {
+        color: #212529;
+        text-decoration: none; }
+      .box .side .list-group-item a:hover {
+        color: #198754; }
+    .box .side .author {
+      margin-bottom: 40px; }
+      .box .side .author img {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        float: left;
+        margin: 0 16px 0 0; }
+      .box .side .author .name {
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: bold; }
+  .box .main {
+    width: 936px; }
+    .box .main .table-area {
+      margin: 0 24px; }
+    .box .main .fa-plus {
+      font-size: 16px;
+      color: #198754;
+      padding: 0 8px 0 47px; }
+    .box .main .fa-long-arrow-down {
+      color: #198754;
+      padding: 0 4px; }
+    .box .main h2 {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 1.4;
+      margin: 35px 0;
+      display: block; }
+    .box .main .inword {
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: bold; }
+  .box th {
+    font-weight: bold;
+    border-bottom: 1px solid;
+    padding-bottom: 20px; }
+  .box td {
+    border-bottom: 1px solid #ced4da;
+    padding: 20px 0; }
+  .box .page {
+    padding: 63.5px 0 32px;
+    text-align: right; }
+    .box .page .pagination {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+
+.edit {
+  width: 480px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 32px; }
+  .edit .mb-3-Account .form-label {
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 16px; }
+  .edit .mb-3-Account .form-control {
+    padding: 18px 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #f8f9fa;
+    border: 0; }
+  .edit .mb-3 .form-control {
+    padding: 18px 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px soild #CED4DA; }
+  .edit .mb-3 .form-select-lg {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 16px;
+    padding: 18px 0.75rem; }
+  .edit .mb-3-Admin .form-control {
+    padding: 18px 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #212529; }
+  .edit .btn-primary {
+    background: #198754; }
+  .edit .btn {
+    padding: 8px 32px;
+    border-radius: 2px; }
+  .edit .me-md-2 {
+    background: #fff;
+    border: 2px solid #CED4DA;
+    color: #198754; }
+
+/*# sourceMappingURL=all.css.map */
